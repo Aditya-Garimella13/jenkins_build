@@ -3,11 +3,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
   <groupId>project</groupId>
   <artifactId>Array_numpairs</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-
   <name>Array_numpairs</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
@@ -19,6 +17,7 @@
   </properties>
 
   <dependencies>
+    
     <dependency>
   	<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
     <groupId>org.junit.jupiter</groupId>
@@ -26,6 +25,14 @@
     <version>5.7.0</version>
     <scope>test</scope>
   </dependency>
+  <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-engine</artifactId>
+    <version>5.7.0</version>
+    <scope>test</scope>
+</dependency>
+  
   </dependencies>
 
   <build>
